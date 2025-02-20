@@ -93,17 +93,28 @@ CodingTool/
 
 <div align="center">
   <p><strong>功能界面展示</strong></p>
-  <img src="/public/img/1.png" alt="主界面" width="800"/>
-  <p><em>SM2 加解密功能</em></p>
-  
-  <img src="/public/img/2.png" alt="SM2加密" width="800"/>
-  <p><em>哈希计算工具</em></p>
-  
-  <img src="/public/img/3.png" alt="Base64转换" width="800"/>
-  <p><em>二维码工具</em></p>
-  
-  <img src="/public/img/4.png" alt="哈希计算" width="800"/>
-  <p><em>网络工具</em></p>
+  <table border="0" cellspacing="0" cellpadding="20">
+    <tr>
+      <td align="center" width="50%">
+        <img src="/public/img/1.png" alt="主界面" width="400" style="border-radius: 8px"/>
+        <p><em>SM2 加解密功能</em></p>
+      </td>
+      <td align="center" width="50%">
+        <img src="/public/img/2.png" alt="SM2加密" width="400" style="border-radius: 8px"/>
+        <p><em>哈希计算工具</em></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="/public/img/3.png" alt="Base64转换" width="400" style="border-radius: 8px"/>
+        <p><em>二维码工具</em></p>
+      </td>
+      <td align="center">
+        <img src="/public/img/4.png" alt="哈希计算" width="400" style="border-radius: 8px"/>
+        <p><em>网络工具</em></p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 🤝 贡献指南
