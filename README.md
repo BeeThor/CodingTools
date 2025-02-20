@@ -31,6 +31,12 @@ CodingTool 是一个现代化的编码工具集合，提供多种常用的编码
 | 📋 **Base64编解码** | • 支持文本编码/解码<br>• 支持中文字符<br>• 文件Base64转换 |
 | 🔐 **哈希计算** | • MD5<br>• SHA1/SHA256/SHA512<br>• 实时计算 |
 | 🔗 **URL编解码** | • URL编码/解码<br>• 批量处理<br>• 特殊字符自动处理 |
+| 🎲 **密码生成器** | • 自定义密码长度<br>• 多种字符组合<br>• 密码强度检测 |
+| ⏰ **时间工具** | • 时间戳转换<br>• 日期格式化<br>• 时区转换 |
+| 🖼️ **图片工具** | • 图片格式转换<br>• 图片压缩<br>• 图片编辑 |
+| 📱 **二维码工具** | • 生成二维码<br>• 自定义样式<br>• 二维码识别 |
+| 🌐 **网络工具** | • Ping测试<br>• DNS查询<br>• 端口扫描 |
+| 📂 **文件工具** | • 文件格式转换<br>• 文件编码检测<br>• 文件对比 |
 
 ## 🚀 快速开始
 
@@ -96,21 +102,21 @@ CodingTool/
   <table border="0" cellspacing="0" cellpadding="20">
     <tr>
       <td align="center" width="50%">
-        <img src="/public/img/1.png" alt="主界面" width="400" style="border-radius: 8px"/>
+        <img src="./public/img/1.png" alt="主界面" width="400" style="border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"/>
         <p><em>SM2 加解密功能</em></p>
       </td>
       <td align="center" width="50%">
-        <img src="/public/img/2.png" alt="SM2加密" width="400" style="border-radius: 8px"/>
+        <img src="./public/img/2.png" alt="SM2加密" width="400" style="border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"/>
         <p><em>哈希计算工具</em></p>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="/public/img/3.png" alt="Base64转换" width="400" style="border-radius: 8px"/>
+        <img src="./public/img/3.png" alt="Base64转换" width="400" style="border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"/>
         <p><em>二维码工具</em></p>
       </td>
       <td align="center">
-        <img src="/public/img/4.png" alt="哈希计算" width="400" style="border-radius: 8px"/>
+        <img src="./public/img/4.png" alt="哈希计算" width="400" style="border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"/>
         <p><em>网络工具</em></p>
       </td>
     </tr>
