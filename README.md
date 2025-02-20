@@ -1,4 +1,4 @@
-# CodingTools - 多功能编码工具集
+# CodingTools - 多功能编码工具集 🛠️
 
 <div align="center">
 
@@ -9,6 +9,15 @@
 
 </div>
 
+<div align="center">
+
+[📝 项目介绍](#-项目介绍) |
+[🚀 快速开始](#-快速开始) |
+[🏗 技术架构](#-技术架构) |
+[📸 系统截图](#-系统截图) |
+[🤝 贡献指南](#-贡献指南)
+
+</div>
 
 ## 📝 项目介绍
 
@@ -16,24 +25,12 @@ CodingTool 是一个现代化的编码工具集合，提供多种常用的编码
 
 ### ✨ 主要特性
 
-- 🔒 **SM2加密解密**
-  - 支持密钥对生成
-  - 文本加密/解密
-  - 密钥导入导出
-- 📋 **Base64编解码**
-  - 支持文本编码/解码
-  - 支持中文字符
-  - 文件Base64转换
-- 🔐 **哈希计算**
-  - MD5
-  - SHA1
-  - SHA256
-  - SHA512
-  - 实时计算
-- 🔗 **URL编解码**
-  - URL编码/解码
-  - 批量处理
-  - 特殊字符自动处理
+| 功能 | 描述 |
+|------|------|
+| 🔒 **SM2加密解密** | • 支持密钥对生成<br>• 文本加密/解密<br>• 密钥导入导出 |
+| 📋 **Base64编解码** | • 支持文本编码/解码<br>• 支持中文字符<br>• 文件Base64转换 |
+| 🔐 **哈希计算** | • MD5<br>• SHA1/SHA256/SHA512<br>• 实时计算 |
+| 🔗 **URL编解码** | • URL编码/解码<br>• 批量处理<br>• 特殊字符自动处理 |
 
 ## 🚀 快速开始
 
@@ -66,7 +63,7 @@ npm run build
 yarn build
 ```
 
-## 🏗️ 技术架构
+## 🏗 技术架构
 
 - **前端框架**：Vue 3 + Composition API
 - **构建工具**：Vite
@@ -92,6 +89,22 @@ CodingTool/
 └── package.json        # 项目配置
 ```
 
+## 📸 系统截图
+
+<div align="center">
+  <p><strong>功能界面展示</strong></p>
+  <img src="/public/img/1.png" alt="主界面" width="800"/>
+  <p><em>SM2 加解密功能</em></p>
+  
+  <img src="/public/img/2.png" alt="SM2加密" width="800"/>
+  <p><em>哈希计算工具</em></p>
+  
+  <img src="/public/img/3.png" alt="Base64转换" width="800"/>
+  <p><em>二维码工具</em></p>
+  
+  <img src="/public/img/4.png" alt="哈希计算" width="800"/>
+  <p><em>网络工具</em></p>
+</div>
 
 ## 🤝 贡献指南
 
@@ -105,7 +118,14 @@ CodingTool/
 
 感谢所有为这个项目做出贡献的开发者们！
 
-
 ## 🔄 更新日志
 
-查看完整的[更新日志](./CHANGELOG.md)了解项目的最新变化。 
+查看完整的[更新日志](./CHANGELOG.md)了解项目的最新变化。
+
+---
+
+<div align="center">
+  <p>如果这个项目对您有帮助，请考虑给它一个星星 ⭐️</p>
+  <p>Made with ❤️ by BeeThor</p>
+</div>
+
