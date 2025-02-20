@@ -23,55 +23,13 @@
 
 ## ✨ 主要特性
 
-### 🔒 SM2加密解密
-- 密钥对生成与导入
-- 支持公钥加密/私钥解密
-- 一键复制与粘贴功能
+<div align="center">
 
-### 📋 Base64编解码
-- 文本内容编码/解码
-- 支持批量处理
-- 实时编码结果预览
+|🔒 加密解密|🛠 实用工具|🌐 网络工具|📂 文件处理|
+|:--|:--|:--|:--|
+|• SM2 密钥对生成与导入<br>• Base64 编解码与批量处理<br>• 多种哈希算法计算<br>• URL 编解码与中文支持|• 智能密码生成与强度检测<br>• 时间戳转换与格式化<br>• 图片 Base64 互转<br>• 二维码生成与识别|• IP 地址归属地查询<br>• 端口扫描与检测<br>• ISP 与时区信息查看<br>• 网络连接状态监测|• 文件哈希快速计算<br>• 文件类型智能检测<br>• 文件编码自动识别<br>• 拖拽上传便捷操作|
 
-### 🔐 哈希计算
-- 支持MD5/SHA1/SHA256
-- 实时计算多种哈希值
-- 结果一键复制
-
-### 🔗 URL编解码
-- URL参数编码/解码
-- 特殊字符自动处理
-- 支持中文编码
-
-### 🎲 密码生成器
-- 自定义密码长度和规则
-- 密码强度实时检测
-- 批量生成功能
-
-### ⏰ 时间工具
-- 时间戳与日期转换
-- 多种日期格式化模板
-- 获取当前时间功能
-
-### 🖼️ 图片工具
-- 图片转Base64编码
-- Base64转图片预览
-- 支持拖拽上传图片
-
-### 📱 二维码工具
-- 自定义尺寸生成
-- 支持样式配置
-- 二维码预览功能
-
-### 🌐 网络工具
-- IP地址归属地查询
-- 端口扫描功能
-- ISP与时区信息查看
-
-### 📂 文件工具
-- 文件哈希计算
-- 文件类型检测
-- 支持拖拽文件处理
+</div>
 
 ## 🚀 快速开始
 
@@ -110,45 +68,23 @@ yarn build
 
 ## 🏗 技术架构
 
-<table>
-<tr>
-<td width="50%" align="center">
+<div align="center">
 
-### 🎨 前端技术
+|![Vue](https://img.shields.io/badge/-Vue_3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)|![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)|![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)|
+|:-:|:-:|:-:|
+|**前端框架**|**构建工具**|**样式框架**|
 
-- **框架**: Vue 3 + Composition API
-- **构建**: Vite
-- **样式**: TailwindCSS
+</div>
 
-</td>
-<td width="50%" align="center">
+### 📦 核心依赖
 
-### 🔐 加密能力
-
-- **SM2加密**: sm-crypto
-- **哈希计算**: crypto-js
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-### 📦 状态管理
-
-- **核心**: Vue Reactivity API
-- **组件**: 自定义组件
-
-</td>
-<td width="50%" align="center">
-
-### 🛠 开发工具
-
-- **IDE**: VS Code
-- **代码规范**: ESLint + Prettier
-
-</td>
-</tr>
-</table>
+```bash
+vue: ^3.3.0          # 渐进式 JavaScript 框架
+vite: ^5.0.0         # 下一代前端构建工具
+tailwindcss: ^3.3.0  # 原子化 CSS 框架
+sm-crypto: ^0.3.12   # SM2/SM3/SM4 国密算法
+crypto-js: ^4.2.0    # 加密算法库
+```
 
 ## 📁 项目结构
 
