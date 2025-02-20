@@ -9,7 +9,6 @@
 
 </div>
 
-[English](./README_EN.md) | 简体中文
 
 ## 📝 项目介绍
 
@@ -38,16 +37,12 @@ CodingTool 是一个现代化的编码工具集合，提供多种常用的编码
 
 ## 🚀 快速开始
 
-### 在线体验
-
-访问我们的在线演示：[CodingTool Demo](https://your-demo-url.com)
-
 ### 本地部署
 
 1. **克隆仓库**
 ```bash
-git clone https://github.com/your-username/coding-tool.git
-cd coding-tool
+git clone https://github.com/BeeThor/CodingTool.git
+cd CodingTool
 ```
 
 2. **安装依赖**
@@ -89,25 +84,14 @@ CodingTool/
 ├── src/                # 源代码目录
 │   ├── assets/         # 静态资源
 │   ├── components/     # Vue组件
-│   │   ├── common/     # 通用组件
-│   │   └── tools/      # 工具组件
 │   ├── utils/          # 工具函数
-│   ├── hooks/          # 自定义Hook
 │   ├── App.vue         # 根组件
 │   └── main.js         # 入口文件
-├── public/             # 公共资源
-├── tests/              # 测试文件
 ├── index.html          # HTML模板
 ├── vite.config.js      # Vite配置
 └── package.json        # 项目配置
 ```
 
-## 📖 详细文档
-
-- [使用指南](./docs/usage-guide.md)
-- [开发文档](./docs/development.md)
-- [API文档](./docs/api.md)
-- [贡献指南](./CONTRIBUTING.md)
 
 ## 🤝 贡献指南
 
@@ -121,10 +105,6 @@ CodingTool/
 
 感谢所有为这个项目做出贡献的开发者们！
 
-## 📞 联系我们
-
-- 提交Issue：[GitHub Issues](https://github.com/your-username/coding-tool/issues)
-- 邮件联系：your-email@example.com
 
 ## 🔄 更新日志
 
