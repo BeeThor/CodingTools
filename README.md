@@ -35,9 +35,6 @@
 
 ### 本地部署
 
-<details>
-<summary>展开查看部署步骤</summary>
-
 1. **克隆仓库**
 ```bash
 git clone https://github.com/BeeThor/CodingTool.git
@@ -68,13 +65,9 @@ yarn build
 
 ## 🏗 技术架构
 
-<div align="center">
-
 |![Vue](https://img.shields.io/badge/-Vue_3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)|![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)|![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)|
 |:-:|:-:|:-:|
 |**前端框架**|**构建工具**|**样式框架**|
-
-</div>
 
 ### 📦 核心依赖
 
