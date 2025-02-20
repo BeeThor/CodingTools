@@ -1,4 +1,4 @@
-# CodingTool - 多功能编码工具集
+# CodingTools - 多功能编码工具集
 
 <div align="center">
 
