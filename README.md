@@ -10,6 +10,7 @@
 </div>
 
 <div align="center">
+<div style="background: linear-gradient(45deg, #f6f8fa, #ffffff); padding: 20px; border-radius: 12px; margin: 20px 0; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
 
 [📝 项目介绍](#-项目介绍) |
 [🚀 快速开始](#-快速开始) |
@@ -18,29 +19,139 @@
 [🤝 贡献指南](#-贡献指南)
 
 </div>
+</div>
 
 ## 📝 项目介绍
 
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px; margin: 20px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+
 CodingTool 是一个现代化的编码工具集合，提供多种常用的编码、加密和解密功能。项目采用 Vue 3 和 TailwindCSS 构建，具有简洁美观的界面和流畅的用户体验。
+
+</div>
 
 ### ✨ 主要特性
 
-| 功能 | 描述 |
-|------|------|
-| 🔒 **SM2加密解密** | • 支持密钥对生成<br>• 文本加密/解密<br>• 密钥导入导出 |
-| 📋 **Base64编解码** | • 支持文本编码/解码<br>• 支持中文字符<br>• 文件Base64转换 |
-| 🔐 **哈希计算** | • MD5<br>• SHA1/SHA256/SHA512<br>• 实时计算 |
-| 🔗 **URL编解码** | • URL编码/解码<br>• 批量处理<br>• 特殊字符自动处理 |
-| 🎲 **密码生成器** | • 自定义密码长度<br>• 多种字符组合<br>• 密码强度检测 |
-| ⏰ **时间工具** | • 时间戳转换<br>• 日期格式化<br>• 时区转换 |
-| 🖼️ **图片工具** | • 图片格式转换<br>• 图片压缩<br>• 图片编辑 |
-| 📱 **二维码工具** | • 生成二维码<br>• 自定义样式<br>• 二维码识别 |
-| 🌐 **网络工具** | • Ping测试<br>• DNS查询<br>• 端口扫描 |
-| 📂 **文件工具** | • 文件格式转换<br>• 文件编码检测<br>• 文件对比 |
+<div class="feature-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0;">
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🔒 <b>SM2加密解密</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>密钥对生成与导入</li>
+<li>支持公钥加密/私钥解密</li>
+<li>一键复制与粘贴功能</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+📋 <b>Base64编解码</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>文本内容编码/解码</li>
+<li>支持批量处理</li>
+<li>实时编码结果预览</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🔐 <b>哈希计算</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>支持MD5/SHA1/SHA256</li>
+<li>实时计算多种哈希值</li>
+<li>结果一键复制</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🔗 <b>URL编解码</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>URL参数编码/解码</li>
+<li>特殊字符自动处理</li>
+<li>支持中文编码</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🎲 <b>密码生成器</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>自定义密码长度和规则</li>
+<li>密码强度实时检测</li>
+<li>批量生成功能</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+⏰ <b>时间工具</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>时间戳与日期转换</li>
+<li>多种日期格式化模板</li>
+<li>获取当前时间功能</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🖼️ <b>图片工具</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>图片转Base64编码</li>
+<li>Base64转图片预览</li>
+<li>支持拖拽上传图片</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+📱 <b>二维码工具</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>自定义尺寸生成</li>
+<li>支持样式配置</li>
+<li>二维码预览功能</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+🌐 <b>网络工具</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>IP地址归属地查询</li>
+<li>端口扫描功能</li>
+<li>ISP与时区信息查看</li>
+</ul>
+</div>
+
+<div style="padding: 20px; border-radius: 8px; background-color: #f8fafc; border: 1px solid #e2e8f0;">
+<h4 style="margin: 0; display: flex; align-items: center; gap: 8px; color: #1e40af;">
+📂 <b>文件工具</b>
+</h4>
+<ul style="margin: 10px 0 0 0; padding-left: 20px; color: #475569;">
+<li>文件哈希计算</li>
+<li>文件类型检测</li>
+<li>支持拖拽文件处理</li>
+</ul>
+</div>
+
+</div>
 
 ## 🚀 快速开始
 
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px; margin: 20px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+
 ### 本地部署
+
+<div style="background-color: #f8fafc; border-radius: 8px; padding: 20px; margin: 10px 0;">
 
 1. **克隆仓库**
 ```bash
@@ -69,18 +180,50 @@ npm run build
 yarn build
 ```
 
+</div>
+</div>
+
 ## 🏗 技术架构
 
-- **前端框架**：Vue 3 + Composition API
-- **构建工具**：Vite
-- **CSS框架**：TailwindCSS
-- **加密库**：
-  - sm-crypto (SM2加密)
-  - crypto-js (哈希计算)
-- **状态管理**：Vue Reactivity API
-- **UI组件**：自定义组件
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px; margin: 20px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+<div style="background-color: #f8fafc; border-radius: 8px; padding: 16px;">
+<h4 style="margin: 0 0 12px 0; color: #1e40af;">🎨 前端技术</h4>
+
+- **框架**: Vue 3 + Composition API
+- **构建**: Vite
+- **样式**: TailwindCSS
+</div>
+
+<div style="background-color: #f8fafc; border-radius: 8px; padding: 16px;">
+<h4 style="margin: 0 0 12px 0; color: #1e40af;">🔐 加密能力</h4>
+
+- **SM2加密**: sm-crypto
+- **哈希计算**: crypto-js
+</div>
+
+<div style="background-color: #f8fafc; border-radius: 8px; padding: 16px;">
+<h4 style="margin: 0 0 12px 0; color: #1e40af;">📦 状态管理</h4>
+
+- **核心**: Vue Reactivity API
+- **组件**: 自定义组件
+</div>
+
+<div style="background-color: #f8fafc; border-radius: 8px; padding: 16px;">
+<h4 style="margin: 0 0 12px 0; color: #1e40af;">🛠 开发工具</h4>
+
+- **IDE**: VS Code
+- **代码规范**: ESLint + Prettier
+</div>
+
+</div>
+</div>
 
 ## 📁 项目结构
+
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px; margin: 20px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
 
 ```
 CodingTool/
@@ -94,6 +237,8 @@ CodingTool/
 ├── vite.config.js      # Vite配置
 └── package.json        # 项目配置
 ```
+
+</div>
 
 ## 📸 系统截图
 
@@ -141,8 +286,8 @@ CodingTool/
 
 ---
 
-<div align="center">
+<div align="center" style="background: linear-gradient(45deg, #f6f8fa, #ffffff); padding: 20px; border-radius: 12px; margin: 20px 0; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
   <p>如果这个项目对您有帮助，请考虑给它一个星星 ⭐️</p>
-  <p>Made with ❤️ by BeeThor</p>
+  <p style="margin: 10px 0 0 0;">Made with ❤️ by BeeThor</p>
 </div>
 
